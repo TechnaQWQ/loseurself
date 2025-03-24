@@ -1,0 +1,110 @@
+´{
+    margin: 0px;
+}
+ header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    border: 5px solid white;
+    margin: 768;
+    width: 95%;
+    padding: 10px;
+     
+    .container{
+        text-align: center;
+        color: palevioletred;
+        background-color: pink;
+        padding: 10px;
+        width: 90%;
+        max-width: 400px;
+    }
+    .profile-pic{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        object-fit: cover;
+        border: 5px dashed white;
+    }
+.texto{
+    margin: 40px;
+}
+
+div{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap: 40px;
+
+
+        a{
+            text-decoration: none;
+            color: white;
+            transition: 0.5 all;
+        }
+        a:hover{
+            color: white;
+        }
+        .btn{
+            background-color: rgb(255, 178, 191);
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            border: 5px dashed white;
+        }
+        .btn:hover{
+            background-color: rgb(253, 156, 189);
+            color: white;
+        }
+
+        }
+    }
+}
+ body {
+    background-image: url('https://i.pinimg.com/736x/42/a2/59/42a25947d00a3f5dc7047384142168d0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    padding: auto;
+    margin: auto;
+
+     @media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+     }
+
+    P{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: pink;
+        border-radius: 10px;
+        border: 5px solid white;
+        margin: 10px;
+        
+        img{
+            display: block;
+            height: auto;
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+ }
+
+ footer{
+    background-color: pink;
+    color: palevioletred;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid white;
+    margin: 10px;
+    list-style: none;
+ }
